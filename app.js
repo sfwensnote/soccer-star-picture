@@ -50,7 +50,7 @@
     });
     $("previous-question").disabled = state.current === 0;
     $("next-question").disabled = state.selected === null;
-    $("next-question").querySelector("span").textContent = state.selected === null ? "选择一个答案" : state.current === questions.length - 1 ? "查看我的结果" : "下一题";
+    $("next-question").querySelector("span").textContent = state.selected === null ? "选一个做法" : state.current === questions.length - 1 ? "查看我的结果" : "下一题";
   }
 
   function getUserProfile() {
@@ -116,13 +116,17 @@
     $("portrait-number").textContent = player.number;
     $("result-category").textContent = player.category;
     $("player-archetype").textContent = player.archetype;
-    $("player-description").textContent = player.summary;
+    const distinctive = axes.map((axis, index) => ({ axis, score: profile[index], distance: Math.abs(profile[index] - 50) }))
+      .sort((a, b) => b.distance - a.distance)
+      .slice(0, 2);
+    const pattern = (item) => `${item.axis.name}偏“${item.score >= 50 ? item.axis.high : item.axis.low}”`;
+    $("player-description").textContent = `这次你的答案里，${pattern(distinctive[0])}，${pattern(distinctive[1])}。综合六项得分，${player.name}的球员风格和你最接近。`;
     $("match-percent").textContent = `${winner.match}%`;
-    $("result-edition").textContent = `球场人格 · 2026`;
+    $("result-edition").textContent = `日常选择 · 2026`;
     $("match-fill").style.width = `${winner.match}%`;
-    $("player-tags").replaceChildren(...player.tags.map((tag) => {
+    $("player-tags").replaceChildren(...distinctive.map(({ axis, score }) => {
       const chip = document.createElement("span");
-      chip.textContent = tag;
+      chip.textContent = `${axis.name} · ${score >= 50 ? axis.high : axis.low}`;
       return chip;
     }));
     setPlayerImage(player);
@@ -189,7 +193,7 @@
   $("restart-quiz").addEventListener("click", startQuiz);
   $("share-result").addEventListener("click", async () => {
     const name = $("result-title").textContent;
-    const text = `我的球场人格更像${name}！你是哪位足球明星？`;
+    const text = `这次测试，我的结果更像${name}。你像哪位足球明星？`;
     const shareData = { title: "你是哪位足球明星？", text, url: window.location.href };
     try {
       if (navigator.share) {
