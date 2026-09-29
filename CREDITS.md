@@ -20,5 +20,13 @@
 | 贝克汉姆 | [David Beckham 2012.jpg](https://commons.wikimedia.org/wiki/File:David_Beckham_2012.jpg) | Kunal Shah · CC BY 2.0 |
 | 贝肯鲍尔 | [Franz Beckenbauer 2006 06 17.jpg](https://commons.wikimedia.org/wiki/File:Franz_Beckenbauer_2006_06_17.jpg) | Hans Buch (cropped by afrank99) · Public domain |
 | 克鲁伊夫 | [Johan Cruijff (1974).jpg](https://commons.wikimedia.org/wiki/File:Johan_Cruijff_(1974).jpg) | Rob Mieremet / Anefo · CC0 |
+| 内马尔 | [Neymar PSG.jpg](https://commons.wikimedia.org/wiki/File:Neymar_PSG.jpg) | Antoine Dellenbach · CC BY-SA 2.0 |
+| 哈里·凯恩 | [Harry Kane England v Ghana 23 June 2026-221.jpg](https://commons.wikimedia.org/wiki/File:Harry_Kane_England_v_Ghana_23_June_2026-221.jpg) | Bryan Berlin / WikiPortraits · CC BY-SA 4.0 |
+| 贝林厄姆 | [Jude Bellingham England v Ghana 23 June 2026-127.jpg](https://commons.wikimedia.org/wiki/File:Jude_Bellingham_England_v_Ghana_23_June_2026-127.jpg) | Bryan Berlin / WikiPortraits · CC BY-SA 4.0 |
+| 莫德里奇 | [Luka Modric Croatia v Portugal 2 July 2026-056.jpg](https://commons.wikimedia.org/wiki/File:Luka_Modric_Croatia_v_Portugal_2_July_2026-056.jpg) | Bryan Berlin / WikiPortraits · CC BY-SA 4.0 |
+| 哈维 | [Xavi Hernandez.jpg](https://commons.wikimedia.org/wiki/File:Xavi_Hernandez.jpg) | Doha Stadium Plus Qatar · CC BY 2.0 |
+| 伊涅斯塔 | [Andrés Iniesta Argentina v Spain 19 July 2026-034.jpg](https://commons.wikimedia.org/wiki/File:Andr%C3%A9s_Iniesta_Argentina_v_Spain_19_July_2026-034.jpg) | Bryan Berlin / WikiPortraits · CC BY-SA 4.0 |
+| 乔治·贝斯特 | [GeorgeBest.jpg](https://commons.wikimedia.org/wiki/File:GeorgeBest.jpg) | Duncanwaldman (cropped by ChrisTheDude) · Public domain |
+| 路易斯·菲戈 | [Luis Figo.jpg](https://commons.wikimedia.org/wiki/File:Luis_Figo.jpg) | Arie R. · CC BY-SA 3.0 |
 
 CC BY 图片应署名作者并链接至许可；CC BY-SA 图片还应遵循相同方式共享条件。部分 Commons 文件页还提示所示人物可能涉及肖像权或当地再使用限制，使用者应查看各文件页的最新说明。所有来源与许可以原文件页为准。
