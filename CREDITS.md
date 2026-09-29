@@ -28,5 +28,13 @@
 | 伊涅斯塔 | [Andrés Iniesta Argentina v Spain 19 July 2026-034.jpg](https://commons.wikimedia.org/wiki/File:Andr%C3%A9s_Iniesta_Argentina_v_Spain_19_July_2026-034.jpg) | Bryan Berlin / WikiPortraits · CC BY-SA 4.0 |
 | 乔治·贝斯特 | [GeorgeBest.jpg](https://commons.wikimedia.org/wiki/File:GeorgeBest.jpg) | Duncanwaldman (cropped by ChrisTheDude) · Public domain |
 | 路易斯·菲戈 | [Luis Figo.jpg](https://commons.wikimedia.org/wiki/File:Luis_Figo.jpg) | Arie R. · CC BY-SA 3.0 |
+| 萨卡 | [Bukayo Saka England v Panama 27 June 26-065.jpg](https://commons.wikimedia.org/wiki/File:Bukayo_Saka_England_v_Panama_27_June_26-065.jpg) | Bryan Berlin / WikiPortraits · CC BY-SA 4.0 |
+| 孙兴慜 | [BFA 2023 -2 Heung-Min Son (cropped).jpg](https://commons.wikimedia.org/wiki/File:BFA_2023_-2_Heung-Min_Son_(cropped).jpg) | Ujishadow · CC BY-SA 4.0 |
+| 罗德里 | [Rodri Argentina v Spain 19 July 2026-297.jpg](https://commons.wikimedia.org/wiki/File:Rodri_Argentina_v_Spain_19_July_2026-297.jpg) | Bryan Berlin / WikiPortraits · CC BY-SA 4.0 |
+| 佩德里 | [Pedri France v Spain 7.24.26-245.jpg](https://commons.wikimedia.org/wiki/File:Pedri_France_v_Spain_7.24.26-245.jpg) | Bryan Berlin / WikiPortraits · CC BY-SA 4.0 |
+| 蒂埃里·亨利 | [Thierry Henry.jpg](https://commons.wikimedia.org/wiki/File:Thierry_Henry.jpg) | Ed g2s · CC BY-SA 3.0 |
+| 保罗·马尔蒂尼 | [PaoloMaldini.jpg](https://commons.wikimedia.org/wiki/File:PaoloMaldini.jpg) | Yelena Rybakova for Soccer.ru · CC BY-SA 3.0 |
+| 加林查 | [Garrincha 1962.jpg](https://commons.wikimedia.org/wiki/File:Garrincha_1962.jpg) | Pressens Bild · Public domain |
+| 罗伯托·巴乔 | [Roberto Baggio cropped.jpg](https://commons.wikimedia.org/wiki/File:Roberto_Baggio_cropped.jpg) | Kanegen · CC BY 2.0 |
 
 CC BY 图片应署名作者并链接至许可；CC BY-SA 图片还应遵循相同方式共享条件。部分 Commons 文件页还提示所示人物可能涉及肖像权或当地再使用限制，使用者应查看各文件页的最新说明。所有来源与许可以原文件页为准。
