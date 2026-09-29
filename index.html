@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#173c2d" />
+    <meta name="description" content="10 道关于选择、创造与团队的足球情境题，看看你的球场人格更像哪位足球明星。" />
+    <title>你是哪位足球明星？｜球场人格测试</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800;900&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">跳到测试内容</a>
+    <div class="site-shell">
+      <header class="topbar">
+        <a class="brand" href="./" aria-label="球场人格测试首页">
+          <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 36 36"><path d="M18 2.8 30.9 10v16L18 33.2 5.1 26V10L18 2.8Z"/><path d="m18 10.1 5.1 3v5.9L18 22l-5.1-3v-5.9l5.1-3Z"/><path d="m18 2.8 5.1 7.3m7.8-.1-7.8 3.1m7.8 12.9-7.8-7m-10.2 0-7.8 7m0-16 7.8 3.1M18 33.2l-5.1-14.2"/></svg></span>
+          <span class="brand-copy"><strong>球场人格</strong><small>FOOTBALL PROFILE</small></span>
+        </a>
+        <span class="privacy-note"><span class="privacy-dot" aria-hidden="true"></span>答案只在本地计算</span>
+      </header>
+
+      <main id="main" tabindex="-1">
+        <section id="screen-home" class="screen screen-home" aria-labelledby="home-title">
+          <div class="home-copy">
+            <p class="eyebrow"><span class="eyebrow-line"></span>一场关于你的球场测试 <span class="eyebrow-index">01 / 03</span></p>
+            <h1 id="home-title" tabindex="-1">你是哪位<br /><em>足球明星？</em></h1>
+            <p class="home-lede">不是比球技，是看你怎样读局、做选择、和队友一起赢。</p>
+            <div class="home-actions">
+              <button class="button button-primary" id="start-quiz" type="button">
+                <span>开始测试</span><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 12h15m-6-6 6 6-6 6"/></svg>
+              </button>
+              <span class="time-note"><svg aria-hidden="true" viewBox="0 0 20 20"><circle cx="10" cy="10" r="7.1"/><path d="M10 5.8v4.6l3 1.8"/></svg>10 道题 · 约 2 分钟</span>
+            </div>
+            <div class="home-proof">
+              <div class="proof-avatars" aria-hidden="true"><span>M</span><span>CR</span><span>KDB</span><span>JC</span></div>
+              <p>从梅西、姆巴佩到马拉多纳与克鲁伊夫<br /><strong>16 种球场人格，等你来对号入座</strong></p>
+            </div>
+          </div>
+
+          <div class="home-art" aria-label="足球场上的中圈与球门线图案">
+            <div class="art-stamp"><span>THE</span><strong>XI</strong><span>YOU</span></div>
+            <div class="pitch-lines" aria-hidden="true"><span class="center-line"></span><span class="center-circle"></span><span class="penalty-box"></span><span class="penalty-arc"></span><span class="pitch-dot"></span></div>
+            <div class="art-caption"><span>YOUR GAME.<br />YOUR STORY.</span><span class="caption-number">90′</span></div>
+            <div class="tape tape-top">PERSONALITY MATCH</div>
+          </div>
+          <div class="home-footer"><span>认真踢，也认真做自己。</span><span>一份轻松的球迷人格测验 <i aria-hidden="true">↘</i></span></div>
+        </section>
+
+        <section id="screen-quiz" class="screen screen-quiz" aria-labelledby="question-title" hidden>
+          <div class="quiz-heading">
+            <button class="icon-button" id="back-home" type="button" aria-label="返回首页"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M19 12H5m6 6-6-6 6-6"/></svg></button>
+            <div class="quiz-progress-wrap">
+              <div class="quiz-progress-label"><span id="question-count">01 / 10</span><span id="axis-label">读局 · 先看见，再出脚</span></div>
+              <div class="progress-track" role="progressbar" aria-label="答题进度" aria-valuemin="0" aria-valuemax="10" aria-valuenow="1"><span id="progress-fill"></span></div>
+            </div>
+            <button class="text-button" id="quit-quiz" type="button">退出</button>
+          </div>
+          <div class="question-layout">
+            <div class="question-side">
+              <div class="question-number"><span>Q</span><strong id="large-question-number">01</strong></div>
+              <p class="side-kicker">MATCH DAY MOMENT</p>
+              <div class="side-mini-field" aria-hidden="true"><span class="mini-circle"></span><span class="mini-ball"></span></div>
+              <p class="side-reminder">凭第一反应选择，<br />没有对错答案。</p>
+            </div>
+            <div class="question-main">
+              <p class="question-kicker" id="question-kicker">读局能力 · 01</p>
+              <h2 id="question-title" tabindex="-1">比赛来到最后十分钟，比分仍然咬得很紧。球传到你脚下——</h2>
+              <p class="question-prompt" id="question-prompt">你最自然的第一步是什么？</p>
+              <div class="answer-grid" id="answer-grid" role="group" aria-label="选择最符合你的回答"></div>
+              <div class="question-controls">
+                <button class="button button-quiet" id="previous-question" type="button" disabled><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M19 12H5m6 6-6-6 6-6"/></svg><span>上一题</span></button>
+                <button class="button button-next" id="next-question" type="button" disabled><span>选择一个答案</span></button>
+              </div>
+            </div>
+          </div>
+          <p class="quiz-privacy"><span class="privacy-dot" aria-hidden="true"></span>不需要姓名或账号，作答不会上传或保存。</p>
+        </section>
+
+        <section id="screen-result" class="screen screen-result" aria-labelledby="result-title" hidden>
+          <div class="result-topbar">
+            <button class="icon-button" id="result-home" type="button" aria-label="返回首页"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M19 12H5m6 6-6-6 6-6"/></svg></button>
+            <p class="eyebrow">球场人格报告 <span class="eyebrow-index">03 / 03</span></p>
+            <button class="share-button" id="share-result" type="button"><svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="m8.7 10.7 6.6-4.4m-6.6 7 6.6 4.4"/></svg><span>分享结果</span></button>
+          </div>
+          <div class="result-layout">
+            <div class="result-portrait-panel">
+              <div class="portrait-topline"><span>PLAYER PROFILE</span><span id="result-category">现役球星</span></div>
+              <div class="portrait-frame">
+                <div class="portrait-number" id="portrait-number">10</div>
+                <img id="player-image" alt="" />
+                <div class="portrait-fallback" id="portrait-fallback" aria-hidden="true"><span id="player-initial">M</span><small>PLAYER CARD</small></div>
+                <div class="portrait-corner"><span>YOU<br />×<br />STAR</span></div>
+              </div>
+              <div class="portrait-credit" id="portrait-credit"></div>
+              <div class="portrait-signature"><span id="player-name-en">LIONEL MESSI</span><span id="result-edition">球场人格 · 2026</span></div>
+            </div>
+            <div class="result-copy">
+              <p class="result-kicker"><span class="result-star" aria-hidden="true">✳</span>你的球场人格，更像</p>
+              <h1 id="result-title" tabindex="-1">梅西</h1>
+              <p class="result-archetype" id="player-archetype">静水流深的创造者</p>
+              <p class="result-description" id="player-description"></p>
+              <div class="result-tags" id="player-tags"></div>
+              <div class="match-meter"><div><span>契合度</span><strong id="match-percent">86%</strong></div><div class="match-track"><span id="match-fill"></span></div><small>这是按你的作答计算出的相似度，纯属轻松测验。</small></div>
+              <div class="result-divider"></div>
+              <div class="traits-heading"><div><span class="small-kicker">YOUR GAME DNA</span><h2>你的球场 DNA</h2></div><span class="traits-count">05 AXES</span></div>
+              <div class="traits-list" id="traits-list"></div>
+            </div>
+          </div>
+          <div class="result-bottom">
+            <div class="runner-up-wrap"><p>另一种也很像你的可能 <span>YOUR CLOSEST MATCHES</span></p><div id="runner-ups" class="runner-ups"></div></div>
+            <button class="button button-primary restart-button" id="restart-quiz" type="button"><span>再测一次</span><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M20 7v5h-5M4 17v-5h5"/><path d="M5.5 9A7 7 0 0 1 18 6l2 2M4 16l2 2a7 7 0 0 0 12.5-3"/></svg></button>
+          </div>
+          <p class="result-disclaimer">本测试为娱乐用途；球员照片的来源与许可见图片说明。作答和结果只在此浏览器中处理。</p>
+        </section>
+      </main>
+
+      <div id="toast" class="toast" role="status" aria-live="polite"></div>
+    </div>
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
